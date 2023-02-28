@@ -2,7 +2,7 @@ pub fn public_function() {
     println!("Hello I am a public function");
 }
  
-fn private_function() {
+pub fn private_function() {
     println!("Hello I am a private function");
 }
  
